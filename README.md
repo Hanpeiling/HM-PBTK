@@ -1,8 +1,8 @@
 # HM-PBTK
 ## About
-This repository contains the code and resources of the following paper:
+This repository contains the code and resources of the following article:
 
-**AI-driven prediction of biological exposure and toxicity of chemicals in freshwater and marine fish: advancing aquatic ecological risk assessment(Under revision)**
+**AI-driven prediction of biological exposure and toxicity of chemicals in freshwater and marine fish: advancing aquatic ecological risk assessment (Under revision)**
 
 ## Overview of the framework
 The high-throughput multi-species physiologically based toxicokinetic (HM-PBTK) allows you to predict the distribution of chemical concentrations in specific tissues in a wide range of fish species after exposure to chemicals in water.
