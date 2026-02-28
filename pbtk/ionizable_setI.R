@@ -436,7 +436,17 @@ output <- function(parms){
 }
 
 
-data_path <- "../data.xlsx"
+
+data_path <- "D:/jupyternotebook/python/code/HM-PBTK-master/data.xlsx"
+if (!file.exists(data_path)) {
+  stop("Please modify the path to the data file as appropriate")
+}
+
+base_dir <- dirname(data_path)
+output_dir <- file.path(base_dir, "output", "dl")
+if (!dir.exists(output_dir)) {
+  dir.create(output_dir, recursive = TRUE)
+}
 parameters_df <- read_excel(data_path, sheet = "dl")
 
 parameters_df <- parameters_df %>%
@@ -602,9 +612,12 @@ for (i in 1:number_of_rows) {
     Dose_water <- parameters_df[i, "Dose_water"]
     time_final_dose <- parameters_df[i, "time_final_dose"]
     current_time <- format(Sys.time(), "%Y%m%d_%H%M%S")
-    excel_filename <- paste0("../output/dl/", num, " ", species, " ", chemicals, " ", BW, " ", time_final_dose, " ", Dose_water, " setI_", current_time, ".xlsx")
-
-    write.xlsx(modeloutput, file = excel_filename,sheetName = "results", row.names = FALSE)
+   
+    excel_filename <- file.path(output_dir, 
+                                paste0(num, " ", species, " ", chemicals, " ", 
+                                       BW, " ", time_final_dose, " ", Dose_water, 
+                                       " setI_", current_time, ".xlsx"))
+    write.xlsx(modeloutput, file = excel_filename,sheetName = "results", rowNames = FALSE)
   } else {
     stop(paste("One or more values are not numeric in row", i))
   }
