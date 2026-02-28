@@ -11,7 +11,7 @@ The high-throughput multi-species physiologically based toxicokinetic (HM-PBTK) 
 Please enter the ionizable chemicals in the worksheet named "dl" and the neutral chemicals in the worksheet named "zx".
 
 **Step 2**: Construct the HM-PBTK model. We have provided four R codes in the “pbtk” folder for constructing HM-PBTK models, two for ionizable chemicals and two for neutral chemicals.
-SET I and SET II represent two methods for calculating partition coefficients, the formulas for which can be found in the article "AI-driven prediction of biological exposure and toxicity of chemicals in freshwater and marine fish: advancing aquatic ecological risk assessment". For ionizable chemicals, SET I is recommended. For neutral chemicals, SET II is recommended. If it is unclear whether the target chemical is ionizable or neutral, SET II is recommended.
+SET I and SET II represent two methods for calculating partition coefficients, the formulas for which can be found in the article "AI-driven prediction of biological exposure and toxicity of chemicals in freshwater and marine fish: advancing aquatic ecological risk assessment". For ionizable chemicals, we recommended using the SET I method and running the ionizable_setI.R file. For neutral chemicals, we recommended using the SET II method and running the neutral_setII.R file.
 
 **Step 3**: View the results of the HM-PBTK model run. The HM-PBTK model run result files can be found in the "output" folder.
 
