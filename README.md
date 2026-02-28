@@ -18,6 +18,8 @@ SET I and SET II represent two methods for calculating partition coefficients, t
 ## User-friendly platform
 To facilitate the use of the HM-PBTK model by risk assessors for simulating the absorption, distribution, metabolism and excretion (ADME) processes of chemicals across multiple species and conducting the quantitative in vitro to in vivo extrapolation (QIVIVE) toxicity assessments, a user-friendly platform (https://www.ierp-dlut.cn/) named Integrated Ecological Risk Predictions (IERP) was established to provide ecological risk prediction based on the HM-PBTK model.
 
-By simply inputting species information (species name, species weight and length), chemical information, exposure scenarios (exposure time and dose, water temperature and pH), and in vitro toxicity data, IERP can provide a comprehensive chain service, including physiological and biochemical parameter prediction, HM-PBTK model application, chemical ADME process analysis, and in vivo toxicity estimation. The relevant code for platform usage can be downloaded from Code Ocean. Once the article is published, the code will be made publicly available.
+By simply inputting species information (species name, species weight and length), chemical information, exposure scenarios (exposure time and dose, water temperature and pH), and in vitro toxicity data, IERP can provide a comprehensive chain service, including physiological and biochemical parameter prediction, HM-PBTK model application, chemical ADME process analysis, and in vivo toxicity estimation. 
+
+The relevant code and models used in the platform have been uploaded to the Code Ocean platform for peer review. Following publication of the article, the code will be made publicly available.
 
 ![20241209111300](https://github.com/user-attachments/assets/7377052b-1b61-411a-8787-6fdf71317e99)
