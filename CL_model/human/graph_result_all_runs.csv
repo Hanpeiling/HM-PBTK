@@ -1,0 +1,11 @@
+graph,group,graph,group,graph,group
+0.6933,training,0.4767,valid,0.3428,test
+0.8171,training,0.4971,valid,0.4782,test
+0.8319,training,0.4831,valid,0.636,test
+0.8257,training,0.4998,valid,0.5971,test
+0.7328,training,0.4873,valid,0.4359,test
+0.7698,training,0.4829,valid,0.3891,test
+0.8088,training,0.5154,valid,0.5889,test
+0.7644,training,0.4937,valid,0.5008,test
+0.7141,training,0.4796,valid,0.4343,test
+0.7476,training,0.4933,valid,0.4213,test

@@ -1,0 +1,136 @@
+{
+  "classification": {
+    "fixed_model": {
+      "test_accuracy": 0.7399328859060402,
+      "test_sensitivity": [
+        0.6285714285714286,
+        0.38317757009345793,
+        0.8697916666666666
+      ],
+      "test_specificity": [
+        0.9144602851323829,
+        0.8875255623721882,
+        0.7264150943396226
+      ],
+      "test_f1_macro": 0.6281613129422345,
+      "test_auc_ovr": 0.8316247748127825,
+      "test_mcc": 0.4957028372538438,
+      "cv_specificity": 0.9202541429631461,
+      "cv_accuracy": 0.8405237101703911,
+      "cv_recall_macro": 0.8405403915081335,
+      "cv_f1_macro": 0.8407300643327421,
+      "cv_auc_ovr": 0.9508659728062788,
+      "cv_mcc": 0.7638366047163145
+    },
+    "grid_search_n_estimators": {
+      "best_params": {
+        "n_estimators": 391
+      },
+      "best_score": 0.840094529548491
+    },
+    "grid_search_max_features": {
+      "best_params": {
+        "max_features": 26
+      },
+      "best_score": 0.8405237101703911
+    }
+  },
+  "graph_model": {
+    "all_runs_path": "D:\\发表论文\\机器学习辅助构建多物种PBTK模型\\回复审稿意见\\代码\\HM-PBTK代码和数据\\HM-PBTK代码和数据\\CL上传\\human\\graph_result_all_runs.csv",
+    "summary_path": "D:\\发表论文\\机器学习辅助构建多物种PBTK模型\\回复审稿意见\\代码\\HM-PBTK代码和数据\\HM-PBTK代码和数据\\CL上传\\human\\graph_result.csv",
+    "mean_train": [
+      0.7705500000000001
+    ],
+    "mean_val": [
+      0.49088999999999994
+    ],
+    "mean_test": [
+      0.4824400000000001
+    ]
+  },
+  "ml_numerical": {
+    "fixed_gbdt": {
+      "test_r2": 0.6707041820028722,
+      "test_mse": 0.18187189077914806,
+      "train_r2": 0.681370800582664,
+      "train_mse": 0.1770709146314371,
+      "cv_r2": 0.64742658721215,
+      "cv_mse": 0.19511148464186764
+    },
+    "grid_search_n_estimators": {
+      "best_params": {
+        "n_estimators": 51
+      },
+      "best_score": 0.64742658721215
+    },
+    "grid_search_max_features": {
+      "best_params": {
+        "max_features": 3
+      },
+      "best_score": 0.64742658721215
+    }
+  },
+  "gcn_late": {
+    "fixed_gbdt": {
+      "test_r2": 0.8370758552003383,
+      "test_mse": 0.09503311312495015,
+      "train_r2": 0.8407401612468023,
+      "train_mse": 0.087276524463832,
+      "cv_r2": 0.8116531075842548,
+      "cv_mse": 0.10241980318116344
+    },
+    "grid_search_n_estimators": {
+      "best_params": {
+        "n_estimators": 51
+      },
+      "best_score": 0.8116531075842548
+    },
+    "grid_search_max_features": {
+      "best_params": {
+        "max_features": 2
+      },
+      "best_score": 0.8116531075842548
+    },
+    "extra_trees_grid_search": {
+      "best_params": {
+        "max_depth": 8,
+        "max_features": 11,
+        "n_estimators": 21
+      },
+      "best_score": 0.8103518287861693
+    },
+    "fixed_extra_trees": {
+      "test_r2": 0.8338086933280997,
+      "test_mse": 0.09693883780549864,
+      "train_r2": 0.8415241656165293,
+      "train_mse": 0.08684687956973998,
+      "cv_r2": 0.8084198426444379,
+      "cv_mse": 0.10411184148857926
+    },
+    "svr_grid_search": {
+      "best_params": {
+        "C": 300,
+        "epsilon": 0.2,
+        "gamma": 0.01
+      },
+      "best_score": 0.8072453165744996,
+      "cv_r2": 0.8072453165744996
+    },
+    "fixed_svr": {
+      "test_r2": 0.8318821778982523,
+      "test_mse": 0.09806256786408991,
+      "train_r2": 0.8126363601435794,
+      "train_mse": 0.10267778383791164,
+      "cv_r2": 0.8072453165744996,
+      "cv_mse": 0.10492637372989119
+    },
+    "voting_regressor": {
+      "test_r2": 0.8389643045117952,
+      "test_mse": 0.09393158690692338,
+      "train_r2": 0.8356333443970364,
+      "train_mse": 0.09007512848861444,
+      "cv_r2": 0.8139882091427127,
+      "cv_mse": 0.10114686606581977
+    }
+  }
+}
