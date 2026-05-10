@@ -30,4 +30,4 @@ To facilitate the use of the HM-PBTK model by risk assessors for simulating the 
 
 By simply inputting species information (species name, species weight and length), chemical information, exposure scenarios (exposure time and dose, water temperature and pH), and in vitro toxicity data, IERP can provide a comprehensive chain service, including physiological and biochemical parameter prediction, HM-PBTK model application, chemical ADME process analysis, and in vivo toxicity estimation. 
 
-The relevant code and models used in the platform have been uploaded to the Code Ocean for peer review. Following publication of the article, the code will be made publicly available.
+
