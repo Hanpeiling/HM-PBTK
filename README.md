@@ -15,7 +15,7 @@ Please refer to the following steps to run the HM-PBTK model
 
 **Step 2**: Find data on chemicals. Run the first.py (in the the batch_pipeline folder) to determine if your target chemical is included in our biochemical parameters file. In the biochemical parameter file, we have pre-calculated biochemical parameters for over 40,000 chemicals for your direct use. If your target chemical is not in our biochemical parameters file, please contact us via email (hplzhr@dlut.edu.cn), we will add the relevant data as soon as possible.
 
-**Step 3**: Prepare physiological and biochemical parameters. Run the main.py  (in the batch_pipeline folder) to search for species' physiological parameters from our physiological parameter dataset, and use the ML models to calculate multi-species cardiac output, oxygen consumption, and hepatic clearance rate.
+**Step 3**: Prepare physiological and biochemical parameters. Run the main.py to search for species' physiological parameters from our physiological parameter dataset, and use the ML models to calculate multi-species cardiac output, oxygen consumption, and hepatic clearance rate.
 
 The code for developing multi-species cardiac output, oxygen consumption, and hepatic clearance rate models was provided in folders named Fcard_model, VO2_model, and CL_model, respectively. Running main.py in these folders can build the models.
 
